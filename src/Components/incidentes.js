@@ -2,9 +2,9 @@
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
-import '../css/habilidades.css';
+import '../css/incidentes.css';
 
-function Habilidades() {
+function Incidentes() {
   const [porcentaje] = useState({
     creatividad: '90%',
     liderazgo: '70%',
@@ -53,14 +53,14 @@ function Habilidades() {
     };
 
     const observer = new IntersectionObserver(verificador, { rootMargin: '-30% 0px -70% 0px' });
-    const habilidades = document.querySelector('#habilidades');
+    const incidentes = document.querySelector('#incidentes');
 
-    observer.observe(habilidades);
+    observer.observe(incidentes);
   }, {});
 
   return (
-    <div id="habilidades" className="secciones">
-      <div className="fondo-habilidades">
+    <div id="incidentes" className="secciones">
+      <div className="fondo-incidentes">
 
         <div className="container">
           <div className="titulos">
@@ -69,9 +69,9 @@ function Habilidades() {
             </div>
             <div className="">
               <p className="texto-titulo">
-                -MIS
+                -LOS
                 {' '}
-                <span className="mi">HABILIDADES</span>
+                <span className="mi">INCIDENTES</span>
                 -
               </p>
             </div>
@@ -138,27 +138,27 @@ function Habilidades() {
             </div>
 
             <div className="row">
-              <div className="col-lg-6 col-habilidad">
-                <div className="habilidad">
+              <div className="col-lg-6 col">
+                <div className="incidentes">
                   <p className="porcentaje-barra a" style={{ width: porcentaje.creatividad }}>Creatividad 90%</p>
                 </div>
-                <div className="habilidad">
+                <div className="incidentes">
                   <p className="porcentaje-barra b" style={{ width: porcentaje.liderazgo }}>Liderazgo 70%</p>
                 </div>
-                <div className="habilidad">
+                <div className="incidentes">
                   <p className="porcentaje-barra c" style={{ width: porcentaje.interpersonal }}>Comunicacion Interpersonal 90%</p>
                 </div>
 
               </div>
 
-              <div className="col-lg-6 col-habilidad">
-                <div className="habilidad">
+              <div className="col-lg-6 col-incidentes">
+                <div className="incidentes">
                   <p className="porcentaje-barra d" style={{ width: porcentaje.equipo }}>Trabajo en Equipo 80%</p>
                 </div>
-                <div className="habilidad">
+                <div className="incidentes">
                   <p className="porcentaje-barra e" style={{ width: porcentaje.ingles }}>Ingles 85%</p>
                 </div>
-                <div className="habilidad">
+                <div className="incidentes">
                   <p className="porcentaje-barra f" style={{ width: porcentaje.profesionalismo }}>Profesionalismo 95%</p>
                 </div>
 
@@ -184,4 +184,4 @@ function Habilidades() {
   );
 }
 
-export default Habilidades;
+export default Incidentes;

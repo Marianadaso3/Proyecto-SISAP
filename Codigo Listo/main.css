@@ -330,16 +330,16 @@ h1 {
 	
 }
 
-/*!***************************************************************************!*\
-  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/habilidades.css ***!
-  \***************************************************************************/
-.fondo-habilidades {
+/*!**************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/css/incidentes.css ***!
+  \**************************************************************************/
+.fondo-incidentes {
     background-color: #eee;
     display: flex;
     flex-direction: column;
 }
 
-#habilidades{
+#incidentes{
     padding: 0;
    
 }
@@ -464,11 +464,11 @@ svg circle:nth-child(2){
     stroke: #777;
 }
 
-/* Habilidades */
+/* Incidentes */
 
 
 
-.habilidad {
+.incidente{
     height: 40px;
     width: 100%;
    

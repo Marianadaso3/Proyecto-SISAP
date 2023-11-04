@@ -13,7 +13,7 @@ function Proyectos() {
         </div>
         <div className="">
           <p className="texto-titulo">
-            -MIS
+            -LOS
             <span className="mi"> PROYECTOS</span>
             -
           </p>

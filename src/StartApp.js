@@ -1,10 +1,9 @@
 import React from 'react';
-
 import Nav from './Components/nav';
 import Carousel from './Components/carousel';
 import SobreNosotros from './Components/sobre nosotros';
 import Proyectos from './Components/proyectos';
-import Habilidades from './Components/habilidades';
+import Incidentes from './Components/incidentes';
 import Contacto from './Components/contacto';
 
 function StartApp() {
@@ -15,7 +14,7 @@ function StartApp() {
       <Carousel />
       <SobreNosotros />
       <Proyectos />
-      <Habilidades />
+      <Incidentes />
       <Contacto />
 
     </div>

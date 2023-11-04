@@ -1,10 +1,10 @@
-.fondo-habilidades {
+.fondo-incidentes {
     background-color: #eee;
     display: flex;
     flex-direction: column;
 }
 
-#habilidades{
+#incidentes{
     padding: 0;
    
 }
@@ -129,11 +129,11 @@ svg circle:nth-child(2){
     stroke: #777;
 }
 
-/* Habilidades */
+/* Incidentes */
 
 
 
-.habilidad {
+.incidente{
     height: 40px;
     width: 100%;
    

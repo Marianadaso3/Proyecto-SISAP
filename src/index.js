@@ -1,3 +1,4 @@
+/* eslint-disable import/no-named-as-default-member */
 // Importaciones
 import React from 'react';
 import ReactDom from 'react-dom';

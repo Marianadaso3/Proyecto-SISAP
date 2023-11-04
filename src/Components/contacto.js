@@ -6,7 +6,7 @@ import '../css/contacto.css';
 function Contacto() {
   return (
     <div data-testid="test-contacts" id="contacto" className="secciones">
-      <div className="fondo-habilidades">
+      <div className="fondo-incidentes">
 
         <div className="container">
           <div className="titulos">
@@ -16,7 +16,7 @@ function Contacto() {
             <div className="">
               <p className="texto-titulo">
                 -
-                <span className="mi">CONTACTAME</span>
+                <span className="mi">CONTACTACTANOS</span>
                 -
               </p>
             </div>
@@ -32,7 +32,7 @@ function Contacto() {
 
             </div>
 
-            <div className="escribeme">Enviame un Mensaje</div>
+            <div className="escribeme">Envianos un Mensaje</div>
 
             <div className="row">
               <form data-testid="test-formulario" className="formulario">

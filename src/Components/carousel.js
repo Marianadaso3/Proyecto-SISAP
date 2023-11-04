@@ -29,7 +29,7 @@ function Carousel() {
         </button>
 
         <div className="frases">
-          <p className="texto">BIENVENIDO A MI SITIO</p>
+          <p className="texto">BIENVENIDO AL CIBERSECURITY WEB</p>
           <a className="redireccion" href="#proyectos">VER PROYECTOS</a>
         </div>
 
