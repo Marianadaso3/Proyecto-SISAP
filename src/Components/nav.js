@@ -6,6 +6,18 @@ import '../css/nav.css';
 
 function Nav() {
   const [ubicacion, enviarPosicion] = useState('navbar navbar-expand-lg fixed-top custom-nav navbar-dark');
+  const [showSubMenu, setShowSubMenu] = useState(false);
+
+
+  const handleSubMenuItemClick = (e) => {
+    e.stopPropagation();
+    setShowSubMenu(false);
+  };
+
+  const handleSubMenuToggle = () => {
+    setShowSubMenu(!showSubMenu);
+  };
+
 
   useEffect(() => {
     window.addEventListener('scroll', (e) => {
@@ -14,6 +26,7 @@ function Nav() {
       } else {
         enviarPosicion('navbar navbar-expand-lg fixed-top custom-nav navbar-dark');
       }
+
     });
 
     const secciones = document.querySelectorAll('.secciones');
@@ -43,7 +56,7 @@ function Nav() {
     <nav className={ubicacion}>
       <div className="container">
         <a className="navbar-brand" href="/" style={{ fontSize: '40px', fontWeight: '700' }}></a>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" onClick={handleSubMenuToggle}>
           <span className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" data-testid="test-nav" id="navbarNavDropdown">
@@ -52,23 +65,37 @@ function Nav() {
               <a className="nav-link active" aria-current="page" href="#contenedor-carousel">Inicio</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#sobre-Nosotros">Sobre Nosotros </a>
+              <a className="nav-link" href="#sobre-Nosotros">Sobre Nosotros</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#proyectos">Aprendizaje</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#incidentes">Incidentes</a>
+            <li className="nav-item nav-item-incidentes">
+              <div className="nav-link" onClick={handleSubMenuToggle}>Incidentes</div>
+              {showSubMenu && (
+                <ul className="submenu">
+                  <li className="nav-item">
+                    <a className="nav-link" href="#ransomware" onClick={handleSubMenuItemClick}>Ransomware</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#phishing" onClick={handleSubMenuItemClick}>Phishing</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#errorhumano" onClick={handleSubMenuItemClick}>Error Humano</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#ingenieriaSocial" onClick={handleSubMenuItemClick}>Ingenieria Social</a>
+                  </li>
+                </ul>
+              )}
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#contacto">Contacto</a>
             </li>
-
           </ul>
         </div>
       </div>
     </nav>
-
   );
 }
 

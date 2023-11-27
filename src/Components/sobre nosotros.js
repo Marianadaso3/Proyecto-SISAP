@@ -4,7 +4,7 @@ import '../css/sobre nosotros.css';
 
 function SobreNosotros() {
   return (
-    <div id="sobre-mi" className="container secciones">
+    <div id="sobre-Nosotros" className="container secciones">
       <div className="titulos">
         <div className="icono">
           <img src="img/logo.jpeg" style={{ width: '100px', height: '100px' }}></img>

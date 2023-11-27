@@ -2,9 +2,9 @@
 /* eslint-disable react/jsx-filename-extension */
 /* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
-import '../css/incidentes.css';
+import '../css/error_humano.css';
 
-function Incidentes() {
+function ErrorHumano() {
   const [porcentaje] = useState({
     creatividad: '90%',
     liderazgo: '70%',
@@ -53,14 +53,14 @@ function Incidentes() {
     };
 
     const observer = new IntersectionObserver(verificador, { rootMargin: '-30% 0px -70% 0px' });
-    const incidentes = document.querySelector('#incidentes');
+    const errorhumano = document.querySelector('#errorhumano');
 
-    observer.observe(incidentes);
+    observer.observe(errorhumano);
   }, {});
 
   return (
-    <div id="incidentes" className="secciones">
-      <div className="fondo-incidentes">
+    <div id="errorhumano" className="secciones">
+      <div className="fondo-errorhumano">
 
         <div className="container">
           <div className="titulos">
@@ -69,9 +69,9 @@ function Incidentes() {
             </div>
             <div className="">
               <p className="texto-titulo">
-                -LOS
+                -HABLEMOS DEL
                 {' '}
-                <span className="mi">INCIDENTES</span>
+                <span className="mi">ERROR HUMANO</span>
                 -
               </p>
             </div>
@@ -90,7 +90,7 @@ function Incidentes() {
       La ciberseguridad se ha convertido en un aspecto crítico en la era digital, donde la información es un activo invaluable y las amenazas cibernéticas son cada vez más sofisticadas. Proteger datos sensibles, la integridad de los sistemas y la privacidad del usuario es esencial en cualquier entorno digital.
     </p>
     <p>
-      En un panorama donde los incidentes de ciberseguridad son una realidad cotidiana, es fundamental entender las amenazas y adoptar prácticas de seguridad robustas. Algunas de las áreas clave en ciberseguridad incluyen:
+      En un panorama donde los ErrorHumano de ciberseguridad son una realidad cotidiana, es fundamental entender las amenazas y adoptar prácticas de seguridad robustas. Algunas de las áreas clave en ciberseguridad incluyen:
     </p>
     <ul>
       <li><strong>Ransomware:</strong> Este tipo de ataque implica el cifrado de datos y la demanda de un rescate para su liberación. La prevención y la respuesta rápida son esenciales.</li>
@@ -98,7 +98,7 @@ function Incidentes() {
       <li><strong>Error Humano:</strong> A menudo subestimado, los errores humanos pueden abrir puertas a vulnerabilidades. La capacitación constante del personal es clave.</li>
     </ul>
     <p>
-      Además, la ciberseguridad no solo se trata de tecnología, sino también de la cultura organizacional. Fomentar una cultura de seguridad, implementar políticas claras y mantenerse actualizado con las últimas amenazas son pasos esenciales en la protección contra incidentes cibernéticos.
+      Además, la ciberseguridad no solo se trata de tecnología, sino también de la cultura organizacional. Fomentar una cultura de seguridad, implementar políticas claras y mantenerse actualizado con las últimas amenazas son pasos esenciales en la protección contra ErrorHumano cibernéticos.
     </p>
     <p>
       En un mundo donde la tecnología avanza rápidamente, la ciberseguridad es un compromiso continuo. La detección temprana, la respuesta efectiva y la prevención proactiva son elementos clave para garantizar la seguridad en línea en todos los niveles.
@@ -169,26 +169,26 @@ function Incidentes() {
 
             <div className="row">
               <div className="col-lg-6 col">
-                <div className="incidentes">
+                <div className="errorhumano">
                   <p className="porcentaje-barra a" style={{ width: porcentaje.creatividad }}>Creatividad 90%</p>
                 </div>
-                <div className="incidentes">
+                <div className="errorhumano">
                   <p className="porcentaje-barra b" style={{ width: porcentaje.liderazgo }}>Liderazgo 70%</p>
                 </div>
-                <div className="incidentes">
+                <div className="errorhumano">
                   <p className="porcentaje-barra c" style={{ width: porcentaje.interpersonal }}>Comunicacion Interpersonal 90%</p>
                 </div>
 
               </div>
 
-              <div className="col-lg-6 col-incidentes">
-                <div className="incidentes">
+              <div className="col-lg-6 col-errorhumano">
+                <div className="errorhumano">
                   <p className="porcentaje-barra d" style={{ width: porcentaje.equipo }}>Trabajo en Equipo 80%</p>
                 </div>
-                <div className="incidentes">
+                <div className="errorhumano">
                   <p className="porcentaje-barra e" style={{ width: porcentaje.ingles }}>Ingles 85%</p>
                 </div>
-                <div className="incidentes">
+                <div className="errorhumano">
                   <p className="porcentaje-barra f" style={{ width: porcentaje.profesionalismo }}>Profesionalismo 95%</p>
                 </div>
 
@@ -214,4 +214,4 @@ function Incidentes() {
   );
 }
 
-export default Incidentes;
+export default ErrorHumano;
