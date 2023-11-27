@@ -71,7 +71,7 @@ function ErrorHumano() {
               <p className="texto-titulo">
                 -HABLEMOS DEL
                 {' '}
-                <span className="mi">ERROR HUMANO</span>
+                <span className="mi">ERROR HUMANO2</span>
                 -
               </p>
             </div>
