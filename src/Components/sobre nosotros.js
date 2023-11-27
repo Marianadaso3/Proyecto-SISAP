@@ -24,7 +24,7 @@ function SobreNosotros() {
           <img src="img/perfil.jpeg" alt="perfil" />
           <div className="sobre">
             <p className="nombre">Integrantes de ISYK</p>
-            <p className="puesto">Programadores: Mariana David, Ronny, William</p>
+            <p className="puesto">Programadores: Mariana David, Ronny Juárez, José William Vargas</p>
           </div>
         </div>
 
@@ -50,7 +50,7 @@ function SobreNosotros() {
               telefono:
             </span>
             {' '}
-            +502 30110780
+            +502 30110780, +505 81932354, +505 58338279
           </p>
           <p className="texto-largo">
             {' '}
@@ -61,7 +61,7 @@ function SobreNosotros() {
               correo electronico:
             </span>
             {' '}
-            natydaso3@hotmail.com
+            natydaso3@hotmail.com, ronnyjuarez1996@gmail.com, vjosewilliam@gmail.com
           </p>
           <p className="texto-largo">
             {' '}
@@ -72,7 +72,7 @@ function SobreNosotros() {
               linkedin:
             </span>
             {' '}
-            https://www.linkedin.com/feed/
+            https://www.linkedin.com/feed/ , https://www.linkedin.com/in/jose-william-vargas-249947126/
           </p>
           <p className="texto-largo">
             {' '}
@@ -83,7 +83,7 @@ function SobreNosotros() {
               github:
             </span>
             {' '}
-            https://github.com/
+            https://github.com/ , https://github.com/RonnyJuarez , https://github.com/josewill
           </p>
         </div>
 

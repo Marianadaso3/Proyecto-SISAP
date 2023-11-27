@@ -65,7 +65,7 @@ function Incidentes() {
         <div className="container">
           <div className="titulos">
             <div className="icono">
-            <img src="img/logo.png" style={{ width: '150px', height: '100px' }}></img>
+            <img src="img/logo.jpeg" style={{ width: '100px', height: '100px' }}></img>
             </div>
             <div className="">
               <p className="texto-titulo">
@@ -170,26 +170,26 @@ function Incidentes() {
             <div className="row">
               <div className="col-lg-6 col">
                 <div className="incidentes">
-                  <p className="porcentaje-barra a" style={{ width: porcentaje.creatividad }}>Creatividad 90%</p>
+                  <p className="porcentaje-barra a" style={{ width: porcentaje.creatividad }}>Aumento de ataque 67%</p>
                 </div>
                 <div className="incidentes">
-                  <p className="porcentaje-barra b" style={{ width: porcentaje.liderazgo }}>Liderazgo 70%</p>
+                  <p className="porcentaje-barra b" style={{ width: porcentaje.liderazgo }}>Brechas de seguridad 60%</p>
                 </div>
                 <div className="incidentes">
-                  <p className="porcentaje-barra c" style={{ width: porcentaje.interpersonal }}>Comunicacion Interpersonal 90%</p>
+                  <p className="porcentaje-barra c" style={{ width: porcentaje.interpersonal }}>Preocupación por la privacidad 70%</p>
                 </div>
 
               </div>
 
               <div className="col-lg-6 col-incidentes">
                 <div className="incidentes">
-                  <p className="porcentaje-barra d" style={{ width: porcentaje.equipo }}>Trabajo en Equipo 80%</p>
+                  <p className="porcentaje-barra d" style={{ width: porcentaje.equipo }}>Costos de ciberataques 10%</p>
                 </div>
                 <div className="incidentes">
-                  <p className="porcentaje-barra e" style={{ width: porcentaje.ingles }}>Ingles 85%</p>
+                  <p className="porcentaje-barra e" style={{ width: porcentaje.ingles }}>Ataques basados en la nube 45%</p>
                 </div>
                 <div className="incidentes">
-                  <p className="porcentaje-barra f" style={{ width: porcentaje.profesionalismo }}>Profesionalismo 95%</p>
+                  <p className="porcentaje-barra f" style={{ width: porcentaje.profesionalismo }}>Escasez de talento en ciberseguridad 25%</p>
                 </div>
 
               </div>
@@ -199,10 +199,9 @@ function Incidentes() {
 
         </div>
         <div className="contratar">
-          <p className="texto-contratar">Estoy Disponible para Trabajar</p>
+          <p className="texto-contratar">Descargar Informe</p>
           <div className="botones-contratar">
-            <a href="#contacto" className="realizar-propuesta">Realizar Propuesta</a>
-            <a href="documentos/CVS.pdf" className="descargar-curriculum bg-primary" download="CVS.pdf">Descargar curriculum (.PDF)</a>
+            <a href="documentos/INFORME.pdf" className="descargar-curriculum bg-primary" download="INFORME.pdf">Descargar(.PDF)</a>
           </div>
 
         </div>

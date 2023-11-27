@@ -28,7 +28,7 @@ function Carousel() {
             <img src="./img/carrusel1.jpg" className="d-block w-100" alt="bg3" />
           </div>
           <div className="carousel-item">
-            <img src="./img/carrusel2.png" className="d-block w-100" alt="bg4" />
+            <img src="./img/carrusel2.jpg" className="d-block w-100" alt="bg4" />
           </div>
           <div className="carousel-item">
             <img src="./img/carrusel3.jpg" className="d-block w-100" alt="bg5" />

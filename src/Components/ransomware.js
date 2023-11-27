@@ -65,7 +65,7 @@ function Ransomware() {
         <div className="container">
           <div className="titulos">
             <div className="icono">
-            <img src="img/ransomware.png" style={{ width: '150px', height: '100px' }}></img>
+            <img src="img/logo.jpeg" style={{ width: '100px', height: '100px' }}></img>
             </div>
             <div className="">
               <p className="texto-titulo">
@@ -80,129 +80,89 @@ function Ransomware() {
 
            {/* Nuevo div con título y párrafo */}
            {/* ... (Código existente) */}
+{/* Nuevo div con título y párrafo */}
 <div className="seccion-adicional">
   <div className="imagen-seccion">
-    <img src="img/ciberseguridad.jpg" alt="Ciberseguridad" />
+    <img src="img/Ransomware.jpg" style={{ width: '500px', height: '500px' }} alt="Ransomware" />
   </div>
   <div className="contenido-seccion">
-    <h2>Ciberseguridad: Protegiendo la Información en un Mundo Conectado</h2>
+    <h2>Todo acerca del ransomware</h2>
     <p>
-      La ciberseguridad se ha convertido en un aspecto crítico en la era digital, donde la información es un activo invaluable y las amenazas cibernéticas son cada vez más sofisticadas. Proteger datos sensibles, la integridad de los sistemas y la privacidad del usuario es esencial en cualquier entorno digital.
+    ¿Alguna vez se ha preguntado qué es todo este revuelo con el ransomware? Ha oído hablar de él en la oficina o leído sobre él en las noticias. Incluso puede que haya aparecido ahora mismo un mensaje emergente en la pantalla de su ordenador que le avisa de una infección con ransomware. Bueno, si tiene curiosidad por aprender todo lo que hay que saber sobre el ransomware, ha venido al lugar adecuado. Le hablaremos de las diferentes formas de ransomware, cómo puede infectarse, de dónde procede, contra quién atenta y qué puede hacer para protegerse.
     </p>
+    <h2>¿Qué es ransomware?</h2>
     <p>
-      En un panorama donde los ransomware de ciberseguridad son una realidad cotidiana, es fundamental entender las amenazas y adoptar prácticas de seguridad robustas. Algunas de las áreas clave en ciberseguridad incluyen:
+    El malware de rescate, o ransomware, es un tipo de malware que impide a los usuarios acceder a su sistema o a sus archivos personales y que exige el pago de un rescate para poder acceder de nuevo a ellos. Las primeras variantes de ransomware se crearon al final de la década de los 80, y el pago debía efectuarse por correo postal. Hoy en día los creadores de ransomware piden que el pago se efectúe mediante criptomonedas o tarjetas de crédito.
     </p>
-    <ul>
-      <li><strong>Ransomware:</strong> Este tipo de ataque implica el cifrado de datos y la demanda de un rescate para su liberación. La prevención y la respuesta rápida son esenciales.</li>
-      <li><strong>Phishing:</strong> Ataques que buscan engañar a los usuarios para revelar información confidencial. La conciencia y la educación son herramientas cruciales para combatir el phishing.</li>
-      <li><strong>Error Humano:</strong> A menudo subestimado, los errores humanos pueden abrir puertas a vulnerabilidades. La capacitación constante del personal es clave.</li>
-    </ul>
+    <h2>¿Cómo puede infectarse?</h2>
     <p>
-      Además, la ciberseguridad no solo se trata de tecnología, sino también de la cultura organizacional. Fomentar una cultura de seguridad, implementar políticas claras y mantenerse actualizado con las últimas amenazas son pasos esenciales en la protección contra ransomware cibernéticos.
-    </p>
+  El ransomware puede infectar su ordenador de varias formas. Uno de los métodos más habituales actualmente es a través de spam malicioso, o malspam, que son mensajes no solicitados que se utilizan para enviar malware por correo electrónico. El mensaje de correo electrónico puede incluir archivos adjuntos trampa, como PDF o documentos de Word. También puede contener enlaces a sitios web maliciosos.
+</p>
+
+<p>
+  El malspam usa ingeniería social para engañar a la gente con el fin de que abra archivos adjuntos o haga clic en vínculos que parecen legítimos, aparentando que proceden de una institución de confianza o de un amigo. Los ciberdelincuentes emplean la ingeniería social en otros tipos de ataques de ransomware, por ejemplo presentarse como el FBI para asustar a los usuarios y obligarles a pagar una suma de dinero por desbloquear los archivos.
+</p>
+
+<p>
+  Otro método de infección habitual, que alcanzó su pico en 2016, es la publicidad maliciosa. La publicidad maliciosa consiste en el uso de publicidad en línea para distribuir malware con poca interacción por parte del usuario o incluso ninguna. Mientras navegan por la web, incluso por sitios legítimos, los usuarios pueden ser conducidos a servidores delictivos sin necesidad de hacer clic en un anuncio. Estos servidores clasifican los detalles de los ordenadores de las víctimas y sus ubicaciones y, a continuación, seleccionan el malware más adecuado para enviarlo. Frecuentemente, ese malware es ransomware.
+</p>
+
+<p>
+  La publicidad maliciosa a menudo usa un iframe infectado, o elemento invisible de una página web, para hacer su trabajo. El iframe redirige a una página de aterrizaje de un exploit y el código malicioso ataca el sistema desde esta mediante un kit de exploits. Todo esto sucede sin el conocimiento del usuario, por lo que a menudo se conoce como ataque drive-by-download (por descarga oculta).
+</p>
+
+    <h2>Tipos de ransomware</h2>
     <p>
-      En un mundo donde la tecnología avanza rápidamente, la ciberseguridad es un compromiso continuo. La detección temprana, la respuesta efectiva y la prevención proactiva son elementos clave para garantizar la seguridad en línea en todos los niveles.
+    Hay tres tipos principales de ransomware, cuya gravedad va desde «algo molesto» a peligro del nivel de «crisis de los misiles de Cuba». Son los siguientes:
+Scareware
     </p>
+    <h2>Scareware</h2>
+    <p>
+  El scareware no resulta tan temible. Incluye programas de seguridad falsos y ofertas falsas de soporte técnico. Podría recibir un mensaje emergente que le informa de que se ha detectado malware y que la única forma de librarse de él es pagar. Si no lo hace, seguramente continuará siendo bombardeado con mensajes emergentes, pero sus archivos están básicamente a salvo.
+</p>
+
+<p>
+  Un programa de software legítimo de seguridad informática no se dirigiría a los clientes en esos términos. Además, si no tiene instalado un programa de esa compañía en el ordenador, esta no tiene por qué estar supervisándole para detectar una infección por ransomware. Y en caso de que tuviera ese software de seguridad, no tendría que pagar por la eliminación de la infección, puesto que ya pagó el precio del software para que este haga precisamente ese trabajo.
+</p>
+
+    <h2>Bloqueadores de pantalla</h2>
+    <p>
+    Con estos la alerta pasa a naranja. Si un ransomware que bloquea la pantalla llega a su ordenador, le impedirá el uso de su PC por completo. Al encender el ordenador aparece una ventana que ocupa toda la pantalla, a menudo acompañada de un emblema de aspecto oficial del FBI o del Departamento de Justicia de los Estados Unidos, que le indica que se han detectado actividades ilegales en su ordenador y que debe pagar una multa. Sin embargo, el FBI no actuaría nunca así ni le exigiría ningún pago por la realización de una actividad ilegal. En caso de que sospecharan que usted comete piratería, o que está en posesión de pornografía infantil o por cualquier otro delito informático, el FBI seguiría los canales legales adecuados.
+    </p>
+    <h2>Ransomware de cifrado</h2>
+    <p>
+    Este es el peor de todos. Este es el que le secuestra los archivos y los cifra, exigiendo un pago para volver a descifrarlos y devolvérselos. La razón por la que este tipo de ransomware es tan peligroso es porque una vez que los ciberdelincuentes se apoderan de los archivos, no hay ningún software de seguridad ni restauración del sistema capaz de devolvérselos. A menos que pague el rescate, puede despedirse de sus archivos. E incluso si lo paga, no hay ninguna garantía de que los ciberdelincuentes le devuelvan los archivos.
+    </p>
+    <h2>Últimos ataques de ransomware</h2>
+    <ol>
+      <li>Europol: El ransomware se mantiene como la principal amenaza en el informe IOCTA</li>
+      <li>El ransomware continúa atacando a ciudades y empresas</li>
+      <li>Los troyanos y el ransomware dominan el panorama de las amenazas a centros educativos en 2018-2019</li>
+    </ol>
+
+    <h2>Cómo protegerse del ransomware</h2>
+    <p>Los expertos en seguridad están de acuerdo en que el mejor modo de protegerse frente al ransomware es evitar la infección.</p>
+
+<p>Aunque hay métodos para tratar una infección con ransomware, en el mejor de los casos son soluciones imperfectas, y a menudo requieren unos conocimientos técnicos que el usuario de a pie no posee. Por tanto, esto es lo que recomendamos a los usuarios para evitar las consecuencias de los ataques por ransomware.</p>
+
+<p>El primer paso en la prevención del ransomware es invertir en un excelente programa de seguridad informática, algún programa con protección en tiempo real diseñado para frustrar los ataques con malware avanzado, como pueda ser el ransomware. También debe buscar características que protejan los programas más vulnerables frente a las amenazas (una tecnología anti-exploits) y al mismo tiempo impidan que el ransomware secuestre sus archivos (un componente anti-ransomware). Los clientes que utilizaron la versión Premium de Malwarebytes for Windows, por ejemplo, estuvieron protegidos de los principales ataques de ransomware de 2017.</p>
+
+<p>A continuación, y aunque sea algo fastidioso, debe crear copias de seguridad de los datos regularmente. Nuestra recomendación es emplear un almacenamiento en la nube que incluya cifrado de alto nivel y autenticación multifactor. Sin embargo, también puede comprar unidades USB o discos duros externos en los que puede guardar archivos nuevos o actualizados, pero no olvide desconectar físicamente estos dispositivos del ordenador después de realizar la copia de seguridad ya que, en caso contrario, se podrían infectar también con el ransomware.</p>
+
+<p>Después asegúrese de que sus sistemas y el software estén siempre actualizados. El brote de ransomware del WannaCry se aprovechó de una vulnerabilidad en el software de Microsoft. Aunque la compañía había publicado un parche para solucionar el problema en marzo de 2017, muchos no instalaron la actualización y quedaron indefensos frente al ataque. Sabemos que es difícil mantener siempre al día una lista creciente de actualizaciones para el conjunto cada vez mayor de programas de software y aplicaciones que utiliza en su vida diaria. Por eso, le recomendamos que habilite las actualizaciones automáticas.</p>
+
+<p>Finalmente, esté siempre informado. Una de las formas más habituales en la que se infectan los ordenadores con ransomware es a través de ingeniería social. Reciba formación (y proporciónesela a sus empleados si es el propietario de la empresa) sobre cómo detectar malspam, sitios web sospechosos y otras estafas. Y, sobre todo, utilice el sentido común. Si algo parece sospechoso, probablemente lo sea.</p>
+    {/* Puedes seguir agregando más contenido aquí según sea necesario */}
   </div>
 </div>
-{/* ... (Resto del código) */}
-
-
-          <div className="informacion">
-            <div className="porcentaje">
-              <div className="cont row">
-                <div className="card col-lg-4">
-                  <div className="box col-lg-4">
-                    <div className="porcent">
-                      <svg>
-                        <circle cx="70" cy="70" r="70" />
-                        <circle cx="70" cy="70" r="70" />
-                      </svg>
-                      <div className="number">
-                        <h2>
-                          <span className="html">41</span>
-                          <span>%</span>
-                        </h2>
-                      </div>
-                      <h4 className="text">Ransomware</h4>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="card col-lg-4">
-                  <div className="box">
-                    <div className="porcent">
-                      <svg>
-                        <circle cx="70" cy="70" r="70" />
-                        <circle cx="70" cy="70" r="70" />
-                      </svg>
-                      <div className="number">
-                        <h2>
-                          <span className="css">48</span>
-                          <span>%</span>
-                        </h2>
-                      </div>
-                      <h3 className="text">Phishing</h3>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="card col-lg-4">
-                  <div className="box">
-                    <div className="porcent">
-                      <svg>
-                        <circle cx="70" cy="70" r="70" />
-                        <circle cx="70" cy="70" r="70" />
-                      </svg>
-                      <div className="number">
-                        <h2>
-                          <span className="js">96</span>
-                          <span>%</span>
-                        </h2>
-                      </div>
-                      <h3 className="text">Error Humano</h3>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="row">
-              <div className="col-lg-6 col">
-                <div className="ransomware">
-                  <p className="porcentaje-barra a" style={{ width: porcentaje.creatividad }}>Creatividad 90%</p>
-                </div>
-                <div className="ransomware">
-                  <p className="porcentaje-barra b" style={{ width: porcentaje.liderazgo }}>Liderazgo 70%</p>
-                </div>
-                <div className="ransomware">
-                  <p className="porcentaje-barra c" style={{ width: porcentaje.interpersonal }}>Comunicacion Interpersonal 90%</p>
-                </div>
-
-              </div>
-
-              <div className="col-lg-6 col-ransomware">
-                <div className="ransomware">
-                  <p className="porcentaje-barra d" style={{ width: porcentaje.equipo }}>Trabajo en Equipo 80%</p>
-                </div>
-                <div className="ransomware">
-                  <p className="porcentaje-barra e" style={{ width: porcentaje.ingles }}>Ingles 85%</p>
-                </div>
-                <div className="ransomware">
-                  <p className="porcentaje-barra f" style={{ width: porcentaje.profesionalismo }}>Profesionalismo 95%</p>
-                </div>
-
-              </div>
-            </div>
-
-          </div>
+{/* Fin de la nueva sección */}
 
         </div>
         <div className="contratar">
-          <p className="texto-contratar">Estoy Disponible para Trabajar</p>
+          <p className="texto-contratar">Descargar Información Sobre Ransomware</p>
           <div className="botones-contratar">
-            <a href="#contacto" className="realizar-propuesta">Realizar Propuesta</a>
-            <a href="documentos/CVS.pdf" className="descargar-curriculum bg-primary" download="CVS.pdf">Descargar curriculum (.PDF)</a>
+        
+            <a href="documentos/Ransonware.pdf" className="descargar-curriculum bg-primary" download="Ransonware.pdf">Descargar(.PDF)</a>
           </div>
 
         </div>

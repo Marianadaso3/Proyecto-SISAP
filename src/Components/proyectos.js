@@ -9,7 +9,7 @@ function Proyectos() {
     <div data-testid="test-proyects" id="proyectos" className="secciones">
       <div className="titulos">
         <div className="icono">
-          <i className="fa-solid fa-briefcase fa-2x" />
+        <img src="img/logo.jpeg" style={{ width: '100px', height: '100px' }}></img>
         </div>
         <div className="">
           <p className="texto-titulo">
@@ -23,12 +23,14 @@ function Proyectos() {
 
       <div className="cursos-ciberseguridad">
       <h2>Cursos Gratuitos de Ciberseguridad</h2>
-      <ul>
-        <li><a href="enlace_al_curso_1" target="_blank" rel="noopener noreferrer">Curso 1: Introducción a la Ciberseguridad</a></li>
-        <li><a href="enlace_al_curso_2" target="_blank" rel="noopener noreferrer">Curso 2: Fundamentos de Ransomware</a></li>
-        <li><a href="enlace_al_curso_3" target="_blank" rel="noopener noreferrer">Curso 3: Prevención de Phishing</a></li>
-        {/* Agrega más cursos según sea necesario */}
-      </ul>
+      <div className="contratar">
+          <p className="texto-contratar">Descargar Guia de Aprendizaje</p>
+          <div className="botones-contratar">
+        
+            <a href="documentos/aprender.pdf" className="descargar-curriculum bg-primary" download="aprender.pdf">Descargar(.PDF)</a>
+          </div>
+
+        </div>
     </div>
 
 
