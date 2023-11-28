@@ -26,9 +26,10 @@ function Contacto() {
           <div className="informacion">
 
             <div className="redes-sociales">
-              <a className="red" data-testid="test-github" href="https://github.com/Marianadaso3/"><i className="fa-brands fa-github fa-2x" /></a>
-              <a className="red" data-testid="test-linked" href="https://www.linkedin.com/feed/"><i className="fa-brands fa-linkedin fa-2x" /></a>
-              <a className="red" data-testid="test-mail" href="mailto:natydaso3@hotmail.com"><i className="fa-solid fa-envelope fa-2x" /></a>
+              <a className="red" data-testid="test-linked" href="https://www.linkedin.com/company/sisap/"><i className="fa-brands fa-linkedin fa-2x" /></a>
+              <a className="fa-solid fa-globe fa-2x" data-testid="test-web" href="https://www.sisap.com/our-culture/"><i className="black" /></a>
+              <a className="red" data-testid="test-mail" href="mailto:proyectosisap.2023@gmail.com"><i className="fa-solid fa-envelope fa-2x" /></a>
+              
 
             </div>
 

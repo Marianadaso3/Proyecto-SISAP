@@ -16,15 +16,18 @@ function SobreNosotros() {
             - 
           </p>
         </div>
-
+      
       </div>
 
       <div className="row informacion">
         <div className="col-lg-4 foto">
-          <img src="img/perfil.jpeg" alt="perfil" />
+        <img src="img/programadores.webp" style={{ width: '400px', height: '510px', marginTop: '-520px'}}></img>
           <div className="sobre">
             <p className="nombre">Integrantes de ISYK</p>
-            <p className="puesto">Programadores: Mariana David, Ronny Juárez, José William Vargas</p>
+            <p className="puesto">Programadores:</p>
+            <p className="puesto">Mariana David</p>
+            <p className="puesto">Ronny Juárez</p>
+            <p className="puesto">José William Vargas</p>
           </div>
         </div>
 
@@ -45,45 +48,66 @@ function SobreNosotros() {
             {' '}
             <span className="resaltado">
               {' '}
-              <i className="fa-solid fa-phone" />
-              {' '}
-              telefono:
+              Mariana David
             </span>
+            <br />
+            <i className="fa-solid fa-phone" />
             {' '}
-            +502 30110780, +505 81932354, +505 58338279
+            +502 30110780
+            <br />
+            <i className="fa-solid fa-envelope" />
+            {' '}
+            natydaso3@hotmail.com
+            <br />
+            <i className="fa-brands fa-linkedin" />
+            {' '}
+            https://www.linkedin.com/in/mariana-david-a61013282/
+            <br />
+            <i className="fa-brands fa-github" />
+            {' '}
+            https://github.com/Marianadaso3
           </p>
           <p className="texto-largo">
             {' '}
             <span className="resaltado">
               {' '}
-              <i className="fa-solid fa-envelope" />
-              {' '}
-              correo electronico:
+              Ronny Juárez
             </span>
+            <br />
+            <i className="fa-solid fa-phone" />
             {' '}
-            natydaso3@hotmail.com, ronnyjuarez1996@gmail.com, vjosewilliam@gmail.com
+            +505 81932354
+            <br />
+            <i className="fa-solid fa-envelope" />
+            {' '}
+            ronnyjuarez1996@gmail.com
+            <br />
+            <i className="fa-brands fa-github" />
+            {' '}
+            https://github.com/RonnyJuarez
           </p>
           <p className="texto-largo">
             {' '}
             <span className="resaltado">
               {' '}
-              <i className="fa-brands fa-linkedin" />
-              {' '}
-              linkedin:
+              William Vargas
             </span>
+            <br />
+            <i className="fa-solid fa-phone" />
             {' '}
-            https://www.linkedin.com/feed/ , https://www.linkedin.com/in/jose-william-vargas-249947126/
-          </p>
-          <p className="texto-largo">
+            +505 58338279
+            <br />
+            <i className="fa-solid fa-envelope" />
             {' '}
-            <span className="resaltado">
-              {' '}
-              <i className="fa-brands fa-github" />
-              {' '}
-              github:
-            </span>
+            vjosewilliam@gmail.com
+            <br />
+            <i className="fa-brands fa-linkedin" />
             {' '}
-            https://github.com/ , https://github.com/RonnyJuarez , https://github.com/josewill
+            https://www.linkedin.com/in/jose-william-vargas-249947126/
+            <br />
+            <i className="fa-brands fa-github" />
+            {' '}
+            https://github.com/josewill
           </p>
         </div>
 
